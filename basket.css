@@ -1,0 +1,148 @@
+* {
+     margin: 0;
+     padding: 0;
+     border: none;
+}
+
+a, a:hover {
+     text-decoration: none;
+}
+ul, ol, li {
+     list-style: none;
+}
+body {
+     font-family: 'Barlow', sans-serif;
+     font-size: 18px;
+     background: url("./img/fon basket.png") no-repeat center/cover;
+}
+.container {
+     width: 1140px;
+     margin: 0 auto;
+}
+#header {
+     padding: 10px;
+}
+.header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.header-end {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.header-end nav {
+     margin-right: 20px;
+}
+.nav-item {
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 140%;
+     color: #FFFFFF;
+
+     margin: 0 20px;
+}
+.header-end label {
+     margin: 0 15px;
+}
+.header-land {
+     background: rgba(107, 107, 107, 0.25);
+     border-radius: 5px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 140%;
+     /* identical to box height, or 20px */
+
+
+     color: #FFFFFF;
+}
+.header-end button {
+     margin: 0 15px;
+     background: #FF7B00;
+     border-radius: 5px;
+     font-weight: 600;
+     font-size: 14px;
+     line-height: 140%;
+     /* identical to box height, or 20px */
+     text-transform: capitalize;
+     padding: 10px 25px;
+     color: #FFFFFF;
+}
+.header-end .header-basket {
+     margin: 0 15px;
+     color: #FFFFFF;
+}
+
+.basket-fon  {
+     position: absolute;
+     width: 767px;
+     height: 431px;
+     left: 200px;
+     top: 168px;
+     background: linear-gradient(180deg, rgba(215, 213, 213, 0.16) 0%, rgba(72, 72, 72, 0.16) 100%);
+     border-radius: 10px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 20px;
+}
+.basket-fon  h2{
+     padding-bottom: 400px;
+     color: #FFFFFF;
+}
+.fa-regular1 {
+     padding-bottom: 400px;
+     display: flex;
+     align-items: center;
+     margin-top:10px ;
+}
+.fa-regular fa-trash-can {
+     position: absolute;
+     left: 12.5%;
+     right: 12.5%;
+     top: 8.33%;
+     bottom: 8.33%;
+
+     background: #FFFFFF;
+}
+.fa-regular1 h4  {
+     font-size: 18px;
+     line-height: 27px;
+     /* identical to box height */
+
+
+     color: #FFFFFF;
+}
+.hero-top {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+.hero-top label {
+     position: relative;
+}
+.hero-top h6 {
+     font-weight: 400;
+     font-size: 16px;
+     line-height: 140%;
+     color: #E0E6E9;
+}
+.hero-search {
+     background: rgba(250, 250, 250, 0.2);
+     border-radius: 8px;
+     font-weight: 400;
+     font-size: 14px;
+     line-height: 140%;
+     /* identical to box height, or 20px */
+     width: 633px;
+     /* Text/Light */
+     padding: 10px 40px;
+     color: #ABBBC2;
+}
+label svg {
+     position: absolute;
+     color: #FFFFFF;
+     top: 12px;
+     left: 10px;
+}

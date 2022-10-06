@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Pizza</title>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+ 
+<header id="header">
+ <div class="container">
+     <div class="header">
+         <a href="#">
+             <img src="./img/logo.svg" alt="">..
+         </a>
+         <div class="header-end">
+             <nav>
+                 <a href="#" class="nav-item">Меню</a>
+                 <a href="#" class="nav-item">Акции</a>
+                 <a href="#" class="nav-item">О нас</a>
+                 <a href="#" class="nav-item">Контакты</a>
+             </nav>
+             <label>
+                 <select class="header-land">
+                     <option>ру</option>
+                     <option>en</option>
+                     <option>кыр</option>
+                 </select>
+             </label>
+             <button>
+                 вход
+             </button>
+             <a href="basket.html" class="header-basket">
+                 <i class="fa-solid fa-basket-shopping"></i>
+             </a>
+         </div>
+     </div>
+ </div>
+</header>
+<section id="hero">
+    <div class="container">
+        <div class="hero-top">
+            <h6>Вторник 2 Март 2022</h6>
+            <label>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="search" placeholder="Поиск еды, десерты и т. д." class="hero-search">
+            </label>
+        </div>
+
+        <div class="swiper mySwiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./img/img1.png" alt=""></div>
+                <div class="swiper-slide"><img src="./img/img2.png" alt=""></div>
+                <div class="swiper-slide"><img src="./img/img3.png" alt=""></div>
+                ...
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+
+<section id="products">
+    <div class="container">
+        <div class="products">
+            <div class="tabs">
+                <div class="input">
+                    <input type="radio" name="pizza"id="Пицца">
+                    <input type="radio" name="pizza"id="Комбо">
+                    <input type="radio" name="pizza"id="Фирменные роллы">
+                    <input type="radio" name="pizza"id="Запеченные роллы">
+                    <input type="radio" name="pizza"id="Сеты">
+                    <input type="radio" name="pizza"id="Напитки">
+                    <input type="radio" name="pizza"id="Десерты">
+                    <input type="radio" name="pizza"id="Горячее">
+                </div>
+
+                <label for="Пицца" class="tabs-tab">Пицца</label>
+                <label for="Комбо" class="tabs-tab">Комбо</label>
+                <label for="Фирменные роллы" class="tabs-tab">Фирменные роллы</label>
+                <label for="Запеченные роллы" class="tabs-tab">Запеченные роллы</label>
+                <label for="Сеты" class="tabs-tab">Сеты</label>
+                <label for="Напитки" class="tabs-tab">Напитки</label>
+                <label for="Десерты" class="tabs-tab">Десерты</label>
+                <label for="Горячее" class="tabs-tab">Горячее</label>
+            </div>
+            <div class="products-filter">
+                <h1>Выбрать блюда</h1>
+                <select>
+                    <option>
+                        Фильтрация
+                    </option>
+                    <option>
+                        По АЛФАВИТУ
+                    </option>
+                </select>
+            </div>
+            <div class="product-tab">
+                <div class="text">
+                    <img src="./img/Images.png" alt="">
+                    <h3>Папа Микс Ренч</h3>
+                    <h6>Четыре любимых пиццы в одной: <br> Цыпленок Рэнч, Ветчина и грибы, <br> Четыре Сыра, Спайси Рэнч</h6>
+                    <div class="hero-logo">
+                        <h5>25см</h5>
+                        <h5>30см</h5>
+                        <h5>35см</h5>
+                    </div>
+                    <div class="btn-one">
+                        <button class="bottom1">Традиционное</button>
+                        <button class="bottom">Тонкое</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="./js/all.min.js"></script>
+<script src="./js/script.js"></script>
+</body>
+</html>
